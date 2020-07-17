@@ -1,4 +1,5 @@
 # dotbang
-4 my arch linux dot files :)
 
-coming soon.
+*screenshots from my desktop and apps*
+
+[2020 esemds]
