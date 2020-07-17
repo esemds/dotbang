@@ -1,4 +1,9 @@
 # dotbang
-4 my arch linux dot files :)
+*4 my linux system*
+> dofiles 
+> scripts
+> screenshots
 
-coming soon.
+`All simple configs i'm using`
+
+[2020/esemds]
