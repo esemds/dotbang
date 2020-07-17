@@ -1,4 +1,4 @@
 # dotbang
-4 my arch linux dot files :)
+*4 my arch linux dot files :)*
 
-coming soon.
+`This brnch is 4 scripts :)
