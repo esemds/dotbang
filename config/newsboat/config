@@ -1,0 +1,43 @@
+auto-reload no
+reload-time 45
+browser chromium
+max-items 500
+always-display-description yes
+articlelist-format "%4i %f %D %6L  %?T?%-17T│ ?%t"
+
+unbind-key j
+unbind-key k
+unbind-key J
+unbind-key K
+unbind-key G
+unbind-key g
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
+bind-key J next
+bind-key K prev
+bind-key g home
+bind-key G end
+bind-key d pagedown
+bind-key u pageup
+bind-key s sort
+bind-key S rev-sort
+
+macro o set browser "newsboat-media" ; open-in-browser ; set browser $BROWSER
+macro O set browser "newsboat-media" ; open-in-browser-and-mark-read ; set browser $BROWSER
+
+color background            color223     default
+color listnormal            color250     default
+color listnormal_unread     color223     default    bold
+color listfocus             color250     color239
+color listfocus_unread      color223     color239   bold
+color info                  color166     default    bold
+color article               color223     default
+
+
+# -- bookmarks -----------------------------------------------------------------
+
+bookmark-cmd ~/.newsboat/bookmark.sh
+bookmark-interactive no
+bookmark-autopilot yes
